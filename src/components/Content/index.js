@@ -46,9 +46,6 @@ function Content({ classes }) {
 					justify="center"
 				>
 					<Grid lg={6} xs={12} item align="center">
-						<ContentGraphic />
-					</Grid>
-					<Grid lg={6} xs={12} item>
 						<Typography component="h2" variant="display1" color="textSecondary" align="center">
 							Welcome to your new project
 						</Typography>

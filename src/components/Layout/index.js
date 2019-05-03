@@ -5,6 +5,8 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import Hidden from '@material-ui/core/Hidden'
 import Navigator from 'components/Navigator'
 
+import { blue, indigo, lightGreen } from '@material-ui/core/colors'
+
 import Header from 'components/Header'
 
 let theme = createMuiTheme({
@@ -18,9 +20,14 @@ let theme = createMuiTheme({
 	},
 	palette: {
 		primary: {
-			light: '#63ccff',
-			main: '#009be5',
-			dark: '#006db3',
+			light: indigo[200],
+			main: indigo[500],
+			dark: indigo[800],
+		},
+		secondary: {
+			light: blue[200],
+			main: blue[500],
+			dark: blue[800],
 		},
 	},
 	shape: {
@@ -33,7 +40,7 @@ theme = {
 	overrides: {
 		MuiDrawer: {
 			paper: {
-				backgroundColor: '#18202c',
+				// backgroundColor: '#18202c',
 			},
 		},
 		MuiButton: {

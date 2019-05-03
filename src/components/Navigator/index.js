@@ -57,7 +57,7 @@ const styles = theme => ({
 		color: 'rgba(255, 255, 255, 0.7)',
 	},
 	itemCategory: {
-		backgroundColor: '#232f3e',
+		backgroundColor: theme.palette.primary.light,
 		boxShadow: '0 -1px 0 #404854 inset',
 		paddingTop: 16,
 		paddingBottom: 16,
@@ -73,7 +73,7 @@ const styles = theme => ({
 		},
 	},
 	itemActiveItem: {
-		color: '#4fc3f7',
+		color: theme.palette.secondary.light,
 	},
 	itemPrimary: {
 		color: 'inherit',
